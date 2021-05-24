@@ -1,0 +1,108 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.container-pokes {
+    margin-top: 10px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 160px;
+    justify-content: space-between;
+}
+
+.poke {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    margin-top: 5px;
+    height: 100%;
+    background-color: rgba(55, 131, 182, 0.513);
+    color: black;
+    font-size: bold;
+    width: 135px;
+}
+
+.link-poke {
+    text-decoration: none;
+    color: aliceblue;
+    text-shadow: 2.6px 3.6px 5.6px rgb(19, 18, 18);
+}
+
+.link-poke :hover {
+    outline: 0;
+    transform: translateY(3px);
+}
+
+.poke img {
+    position: relative;
+    width: 102px;
+    height: 102px;
+    display: flex;
+    align-self: center;
+    border: 1px solid;
+    border-radius: 100px;
+    background: aliceblue;
+    transition: transform .2s;
+}
+
+.poke :hover img {
+    transform: rotateX(180deg)
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(123, 255, 0, 0.76);
+    width: 60px;
+    margin-left: 37px;
+    border-radius: 10px;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.contenedor-tipos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media(max-width: 480px) {
+    .container-pokes {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 40px;
+        width: 0%;
+        justify-content: space-between;
+    }
+    .contenedor-tipos {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .poke {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        border-radius: 20px;
+        margin: 10px;
+        margin-top: 5px;
+        height: 100%;
+        background-color: rgba(55, 131, 182, 0.513);
+        color: black;
+        font-size: bold;
+        width: 105px;
+    }
+    .poke img {
+        position: relative;
+        width: 82px;
+        height: 102px;
+        display: flex;
+        align-self: center;
+        border: 1px solid;
+        border-radius: 100px;
+        background: aliceblue;
+        transition: transform .2s;
+    }
+}

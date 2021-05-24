@@ -1,0 +1,94 @@
+    .detalle {
+        text-align: center;
+        background: url("https://i.pinimg.com/originals/f5/41/f1/f541f1f13a45010e6a82d93747f27b5b.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        color: aliceblue;
+        text-decoration: none;
+    }
+    
+    .detalle img {
+        border: 3px solid black;
+        background-color: aliceblue;
+        border-radius: 150px;
+        width: 224px;
+        height: 224px;
+    }
+    
+    .tipo-detalle {
+        font-size: 50px;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        background-color: green;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    
+    .types {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .cuadro-stats {
+        background-color: rgba(28, 156, 88, 0.281);
+        border: 3px solid green;
+        padding-bottom: 10px;
+        margin-left: 470px;
+        margin-right: 470px;
+        border-radius: 15px;
+    }
+    
+    .stats {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    .btn-back {
+        text-align: start;
+        margin-top: 40px;
+        text-decoration: none;
+    }
+    
+    .btn-link {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .btn-link:active {
+        outline: 0;
+        transform: translateY(3px);
+    }
+    
+    @media(max-width: 480px) {
+        .tipo-detalle {
+            font-size: 30px;
+            font-weight: bold;
+            display: flex;
+            flex-direction: column;
+            background-color: green;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+        .types {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .cuadro-stats {
+            background-color: rgba(28, 156, 88, 0.281);
+            border: 3px solid green;
+            padding-bottom: 10px;
+            border-radius: 15px;
+        }
+        .stats {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+    }

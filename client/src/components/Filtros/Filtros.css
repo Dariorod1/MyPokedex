@@ -1,0 +1,25 @@
+.select {
+    background-color: #11c035;
+    width: 173px;
+    height: 35px;
+    border-radius: 38px;
+    border: 2px solid black;
+    margin-top: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-weight: 900;
+}
+
+@media(max-width: 480px) {
+    .select {
+        background-color: #11c035;
+        width: 73px;
+        height: 25px;
+        border-radius: 38px;
+        border: 2px solid black;
+        margin-top: 15px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+        font-weight: 900;
+    }
+}

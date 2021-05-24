@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(255, 255, 255);
+    background: url("https://image.winudf.com/v2/image/Y29tLmhkcG9rZW1vbi53YWxscGFwZXJfc2NyZWVuXzhfMTUzMDE2Nzk0M18wMzA/screen-8.jpg?fakeurl=1&type=.jpg");
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-decoration: none;
+    margin-right: 440px;
+    margin-left: 440px;
+    color: black;
+}
+
+.link-pag {
+    border: 1px solid black;
+    background-color: rgb(7, 7, 6);
+    border-radius: 100px;
+    text-decoration: none;
+    color: rgb(255, 251, 251);
+    font-family: monospace;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.container-pag {
+    margin-top: 15px;
+}

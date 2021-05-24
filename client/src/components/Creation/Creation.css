@@ -1,0 +1,141 @@
+.div_g {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px 0px 0px;
+}
+
+.div_g {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: fit-content;
+}
+
+.title-create {
+    color: white;
+    font-size: 50px;
+    text-shadow: 3px 2px 4px black;
+}
+
+.div_create_confirm {
+    background-color: #0ead69;
+    text-align: justify;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 5px;
+    margin: 30px 0px 0px 0px;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px 0px 0px 10px;
+}
+
+.li_text {
+    padding: 0px;
+    color: rgb(216, 24, 24);
+    text-shadow: 1px 1px 1px black;
+}
+
+.div_f {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    padding-top: 5px;
+}
+
+.div_label {
+    display: flex;
+    justify-content: start;
+    width: 100px;
+}
+
+.div_label .label {
+    font-size: 18px;
+    color: white;
+    text-shadow: 1px 2px 2px black;
+}
+
+.input {
+    margin: 0px;
+    width: 200px;
+    height: 18px;
+}
+
+.div_types {
+    display: flex;
+    justify-content: flex-start;
+    width: 150px;
+    height: 20px;
+    margin: 10px 0px 30px -130px;
+}
+
+.div_types .div_type_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px 0px 0px 40px;
+}
+
+.div_type {
+    width: fit-content;
+    height: fit-content;
+    margin: 0px 0px 0px 7px;
+    padding: 1px 1px 1px 1px;
+    font-size: 18px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px;
+    border-radius: 6px;
+    background-color: #fcf300;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
+}
+
+.label {
+    margin: 0px 7px 0px 7px;
+}
+
+.div_submit {
+    display: flex;
+    justify-content: center;
+}
+
+.btn_submit {
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 20px;
+    background-color: #e63946;
+}
+
+.btn_submit:hover {
+    box-shadow: 0 0 5px 0 #ffffff;
+}
+
+.btn_submit:active {
+    outline: 0;
+    transform: translateY(3px);
+}
+
+.select-types {
+    width: 100px;
+    height: 30px;
+    color: white;
+}
+
+.li_text {
+    background-color: #ffffff;
+}
+
+@media(max-width: 480px) {
+    .title-create {
+        color: white;
+        font-size: 30px;
+        text-shadow: 3px 2px 4px black;
+    }
+}
