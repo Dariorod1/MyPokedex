@@ -6,7 +6,7 @@ const getApi = async() => {
     let pokeUrl = await axios.get(POKEMON_URL);
     let pokeUrlNext = await axios.get(pokeUrl.data.next);
     let pokeTotal = pokeUrl.data.results.concat(pokeUrlNext.data.results);
-    //para menos tiempos se puede usar promise all se puede ir mandando de a 10 con slice 
+
 
     for (let el of pokeTotal) {
         let pDate = await axios.get(el.url);
