@@ -25,3 +25,9 @@ La idea general es crear una aplicación en la cual se puedan ver los distintos 
   - Crear nuevos pokemons
 <h3>Landing Page</h3>
 <img src="poke1.JPG"/>
+<h3>Home Page</h3>
+<img src="poke2.JPG"/>
+<h3>Detail Poke Page</h3>
+<img src="poke3.JPG"/>
+<h3>Creation Page</h3>
+<img src="poke4.JPG"/>
