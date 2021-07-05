@@ -24,4 +24,4 @@ La idea general es crear una aplicación en la cual se puedan ver los distintos 
   - Filtrarlos / Ordenarlos
   - Crear nuevos pokemons
 <h3>Landing Page</h3>
-<img src=""/>
+<img src="pikachu.png"/>
